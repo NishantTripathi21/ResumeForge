@@ -1,0 +1,113 @@
+const data = {
+  firstName: "Nishant",
+  lastName: "Tripathi",
+  jobTitle: "full stack developer",
+  address: "525 N tryon Street, NC 28117",
+  phone: "(123)-456-7890",
+  email: "exmaple@gmail.com",
+  themeColor: "#ff6666",
+  summary:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  experience: [
+    {
+      id: 1,
+      title: "Full Stack Developer",
+      companyName: "Amazon",
+      city: "New York",
+      state: "NY",
+      startDate: "March,27 2025",
+      endDate: "",
+      currentlyWorking: true,
+      workSummary:
+        " Designed, developed, and maintained full-stack applications using React and Node.js.\n" +
+        "• Implemented responsive user interfaces with React, ensuring seamless user experiences across\n" +
+        "various devices and browsers.\n" +
+        "• Maintaining the React Native in-house organization application." +
+        "• CreatedRESTfulAPIs withNode.js and Express,facilitating data communicationbetween the front-end" +
+        "and back-end systems.",
+    },
+    {
+      id: 2,
+      title: "Frontend Developer",
+      companyName: "Google",
+      city: "Charlotte",
+      state: "NC",
+      startDate: "Sep 2027",
+      endDate: "March 2028",
+      currentlyWorking: false,
+      workSummary:
+        " Designed, developed, and maintained full-stack applications using React and Node.js." +
+        "• Implemented responsive user interfaces with React, ensuring seamless user experiences across" +
+        "various devices and browsers." +
+        "• Maintaining the React Native in-house organization application." +
+        "• CreatedRESTfulAPIs withNode.js and Express,facilitating data communicationbetween the front-end" +
+        "and back-end systems.",
+    },
+  ],
+  projects: [
+    {
+      id: 1,
+      projectName: "E-commerce Website",
+      techStack: "React, Node.js, Express, MongoDB",
+      projectSummary:
+        "Designed and developed an e-commerce website using React and Node.js. Implemented a responsive user interface with React, ensuring seamless user experiences across various devices and browsers. Created RESTful APIs with Node.js and Express, facilitating data communication between the front-end and back-end systems.",
+    },
+    {
+      id: 2,
+      projectName: "Portfolio Website",
+      techStack: "",
+      projectSummary:
+        "Designed and developed a portfolio website using React and Node.js. Implemented a responsive user interface with React, ensuring seamless user experiences across various devices and browsers. Created RESTful APIs with Node.js and Express, facilitating data communication between the front-end and back-end systems.",
+    },
+  ],
+  education: [
+    {
+      id: 1,
+      universityName: "Western Illinois University",
+      startDate: "Aug 2018",
+      endDate: "Dec:2019",
+      degree: "Master",
+      gradeType: "CGPA",
+      grade: "8.5",
+      major: "Computer Science",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    },
+    {
+      id: 2,
+      universityName: "Western Illinois University",
+      startDate: "Aug 2018",
+      endDate: "Dec:2019",
+      degree: "Master",
+      gradeType: "CGPA",
+      grade: "3.5",
+      major: "Computer Science",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    },
+  ],
+  skills: [
+    {
+      id: 1,
+      name: "Angular",
+      rating: 80,
+    },
+    {
+      id: 1,
+      name: "React",
+      rating: 100,
+    },
+    {
+      id: 1,
+      name: "MySql",
+      rating: 80,
+    },
+    {
+      id: 1,
+      name: "React Native",
+      rating: 100,
+    },
+  ],
+};
+
+export default data;
